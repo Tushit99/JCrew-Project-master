@@ -1,0 +1,101 @@
+.footerParent {
+    background-color: rgb(240, 241, 242);
+    display: flex;
+    justify-content: space-around; 
+    margin-top: 40px ; 
+    padding-top: 4rem;   
+}
+
+ul li {
+    color: rgb(106, 110, 112);
+    font-family: soleil, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding-bottom: 0.5rem;
+}
+
+ul li:hover {
+    text-decoration: underline;
+
+}
+
+.box-1 {
+    line-height: 2rem;
+    width: 16rem;
+    border: 1px solid black;
+}
+
+.btn button {
+    color: white;
+    border: none;
+    line-height: 2.1rem;
+    width: 6rem;
+    font-weight: 700;
+    background-color: black;
+}
+
+.input {
+    display: flex;
+
+}
+
+.logos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.logos img {
+    height: 4rem;
+    width: 6rem;
+    background-color: rgb(240, 241, 242);
+}
+
+.india a {
+    padding-right: 1rem;
+}
+
+.h3 {
+    font-weight: 800;
+    font-family: soleil, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    padding-bottom: 0.5rem;
+
+}
+
+.grandChild {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    /* margin-left: 4rem; */
+
+}
+
+.icons {
+    display: grid;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.footer__copyright {
+    color: rgb(106, 110, 112);
+    margin-bottom: 2rem;
+}
+
+.flag {
+    display: grid;
+    gap: 1rem;
+}
+
+.social {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2rem;
+
+
+}
+
+/* .li{
+    padding: 1.5rem;
+  
+} */

@@ -1,0 +1,10 @@
+.btn>button{
+    color: black ;  
+    border: 1px solid rgb(181, 181, 181);
+    font-size: small;
+}
+
+.btn>button:hover{
+    border: 1px solid black; 
+    font-size: medium ;
+}

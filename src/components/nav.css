@@ -1,0 +1,134 @@
+
+
+.maincon{
+    width: 100%; 
+    margin: auto;
+    border-bottom: 1px solid rgb(0, 0, 0) ; 
+    display: flex; 
+    height: 80px;
+    flex-wrap: wrap; 
+    align-items: center ;  
+}  
+
+#sign{
+    background-color: white; 
+    border: 0px ; 
+    font-family: sans-serif ; 
+    color: rgb(128, 128, 128) ; 
+    font-size: large ; 
+    font-weight: bold ;
+}
+
+#sign:hover{
+    color: black ;   
+    margin-top: 2px;  
+}
+
+.heart{
+    width: 30px; 
+    margin: 0px 10px ;   
+}
+
+.heart:hover{
+    width: 32px ;
+}
+
+.cartimg:hover{
+    width: 25px  ;
+}
+
+.cartimg{
+    width: 22px;  
+    margin: 0px 10px ;
+}
+
+.bttn{
+    margin: 10px;
+}
+
+.hide2{
+    /* border: 1px solid black ; */
+    padding: 20px ; 
+    text-align: left;
+    display: none ;
+    position: absolute ;   
+    background-color: white ;
+    margin-top: 5px;  
+}
+
+.hide{
+    /* border: 1px solid black ; */
+    padding: 20px ; 
+    text-align: left;
+    display: none ;
+    position: absolute ;   
+    background-color: white ;
+    margin-top: 5px;   
+}
+
+.power{     
+    text-align: center ; 
+    font-size: small ;
+    margin: 0px 10px; 
+    padding: 8px; 
+}
+
+.power:hover .hide2{
+    display:grid ; 
+    grid-template-columns: repeat(3, 1fr); 
+    align-items: center ;
+}
+
+.power:hover .hide{
+    display:grid ; 
+    grid-template-columns: repeat(2, 1fr); 
+    align-items: center ;
+}
+
+.dec{
+    text-decoration: none ;    
+    margin: 10px 0px ;  
+    font-size: medium;   
+    color: black ;
+} 
+ 
+.dec:hover{
+    margin-left: 3px;
+}
+
+.navbut{ 
+    display: flex ;  
+    flex: 4;
+}
+
+.iimg{
+    width: 20px; 
+    padding: 5px;
+    border-bottom: 1px solid black ;
+    border-left:  1px solid black ;
+    border-top:  1px solid black ; 
+    text-align: center;
+}
+
+.hide>h3{
+    display: grid ;
+}
+
+.logo{
+    font-family: Baskerville Old Face ;  
+    width: 150px;   
+    font-weight: lighter ; 
+}
+
+.search{
+    border-top: 1px solid black ;
+    border-right: 1px solid black ;
+    border-bottom: 1px solid black ;
+    border-left: 0px;
+    padding: 6px 5px ; 
+    margin-right: 20px;
+    font-size: medium ;
+}
+
+
+
